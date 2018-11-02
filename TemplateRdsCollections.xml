@@ -24,7 +24,7 @@
             </applications>
             <items>
                 <item>
-                    <name>Base de données interne Windows</name>
+                    <name>Windows internal database</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -65,7 +65,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Administration connexions RemoteApp et services Bureau à distance</name>
+                    <name>Administration RemoteApp Connections and Remote Desktop Services</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -106,7 +106,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Service Broker pour les connexions Bureau à distance</name>
+                    <name>Service Broker for Remote Desktop Connections</name>
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -190,7 +190,7 @@
             </items>
             <discovery_rules>
                 <discovery_rule>
-                    <name>Découverte Collection RDP</name>
+                    <name>Discovery RDP Collection</name>
                     <type>2</type>
                     <snmp_community/>
                     <snmp_oid/>
@@ -340,7 +340,7 @@
             <expression>{Template RDS Collections:service_state[TScPubRPC].last()}=6</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Service Administration connexions RemoteApp et services Bureau à distance Arrêté</name>
+            <name>Service Administration RemoteApp Connections and Remote Desktop Services Stopped</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -356,7 +356,7 @@
             <expression>{Template RDS Collections:service_state[MSSQL$MICROSOFT##WID].last()}=6</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Service BDD Interne (WID) Arrêté</name>
+            <name>Internal BDD Service (WID) Stopped</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -372,7 +372,7 @@
             <expression>{Template RDS Collections:service_state[Tssdis].last()}=6</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Service Broker Arrêté</name>
+            <name>Broker Service Stopped</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
